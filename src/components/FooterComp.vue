@@ -1,6 +1,6 @@
 <template>
   <hr />
-  <div class="mx-auto">SOCMED</div>
+  <div class="mx-auto"></div>
 </template>
 
 <style lang="scss" scoped>
