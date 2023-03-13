@@ -17,13 +17,15 @@
         <div class="navbar-nav mx-auto">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Me</a>
+              <router-link class="nav-link" aria-current="page" to="/"
+                >Me</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
+              <router-link class="nav-link" to="/project">Project</router-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>
