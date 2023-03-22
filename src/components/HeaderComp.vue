@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
-      <!-- <a class="navbar-brand" href="#">Zach</a> -->
+      <h3 class="Zach">ZACH</h3>
       <button
         class="navbar-toggler"
         type="button"
@@ -14,20 +14,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav mx-auto">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/"
-                >Me</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/project">Project</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/contact">Contact</router-link>
-            </li>
-          </ul>
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <router-link class="nav-link" aria-current="page" to="/"
+              >Me</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/project">Project</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/contact">Contact</router-link>
+          </li>
+        </ul>
+        <div class="nav-item">
+          <i class="fa-solid fa-moon dark-btn"></i>
+          <i class="fa-solid fa-sun light-btn"></i>
         </div>
       </div>
     </div>

@@ -23,17 +23,27 @@ $text-bg-dark: #def5e5;
 $text-bg-light: #301e67;
 $dark-bg: #0f172a;
 $light-bg: #ecf2ff;
-
-* {
-  font-size: 22px;
-}
-
 #app {
   font-family: "Lexend";
-  background: $light-bg;
-  color: $text-bg-light;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 22px;
+  background: $light-bg;
+  color: $text-bg-light;
+}
+
+.dark-theme {
+  background: $dark-bg;
+  color: $text-bg-light;
+}
+
+.Zach {
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: 11px;
 }
 .content {
   margin: 35px 230px;

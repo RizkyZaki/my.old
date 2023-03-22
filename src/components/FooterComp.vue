@@ -1,6 +1,6 @@
 <template>
   <hr />
-  <div class="mx-auto"></div>
+  <p class="text-center">Copyright</p>
 </template>
 
 <style lang="scss" scoped>
