@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg nav-dark">
     <div class="container">
       <h3 class="Zach">ZACH</h3>
       <button
@@ -28,8 +28,10 @@
           </li>
         </ul>
         <div class="nav-item">
-          <i class="fa-solid fa-moon dark-btn"></i>
-          <i class="fa-solid fa-sun light-btn"></i>
+          <div class="toggle-theme" @click="changeTheme()">
+            <i v-if="theme === 'dark'" class="fa-solid fa-sun dark-btn"></i>
+            <i v-else class="fa-solid fa-moon light-btn"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -40,6 +42,21 @@
 export default {
   props: {
     message: String,
+  },
+  data() {
+    return {
+      theme: "",
+    };
+  },
+  methods: {
+    changeTheme() {
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classList.contains("dark-theme")) {
+        this.theme = "dark";
+      } else {
+        this.theme = "light";
+      }
+    },
   },
 };
 </script>

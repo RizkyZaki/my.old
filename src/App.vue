@@ -36,8 +36,8 @@ body {
 }
 
 .dark-theme {
-  background: $dark-bg;
-  color: $text-bg-light;
+  background: $dark-bg !important;
+  color: $text-bg-dark !important;
 }
 
 .Zach {
@@ -49,15 +49,19 @@ body {
   margin: 35px 230px;
 }
 
-.text-base {
-  color: $text-bg-dark;
+.toggle-theme {
+  cursor: pointer;
 }
+
 router-link {
   cursor: pointer;
 }
 
 .router-link-exact-active.router-link-active {
   color: $text-bg-light;
+}
+.router-link-exact-active.router-dark.router-link-active {
+  color: $text-bg-dark;
 }
 
 @media (min-width: 367px) and (max-width: 767px) {
