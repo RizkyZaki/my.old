@@ -1,5 +1,7 @@
 <template>
-  <div>Contact</div>
+  <div class="container">
+    <h2 class="text-center fw-bolder">Reach Me!</h2>
+  </div>
 </template>
 
 

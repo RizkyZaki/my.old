@@ -29,8 +29,11 @@ $light-bg: #ecf2ff;
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+:root {
   font-size: 22px;
+}
+
+body {
   background: $light-bg;
   color: $text-bg-light;
 }
@@ -40,11 +43,6 @@ body {
   color: $text-bg-dark !important;
 }
 
-.Zach {
-  font-weight: bolder;
-  font-style: italic;
-  margin-top: 11px;
-}
 .content {
   margin: 35px 230px;
 }
@@ -57,16 +55,77 @@ router-link {
   cursor: pointer;
 }
 
-.router-link-exact-active.router-link-active {
-  color: $text-bg-light;
+// .router-link-exact-active.router-link-active {
+//   color: $text-bg-light;
+// }
+// .router-link-exact-active.router-dark.router-link-active {
+//   color: $text-bg-dark;
+// }
+
+a {
+  color: rgb(131, 131, 131);
 }
-.router-link-exact-active.router-dark.router-link-active {
-  color: $text-bg-dark;
+a:hover {
+  color: rgb(59, 59, 59);
+}
+nav {
+  font-size: 0.9rem;
+  li {
+    padding-right: 30px;
+  }
+  .Zach {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 11px;
+  }
+  a {
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 1em;
+    color: $text-bg-light !important;
+    letter-spacing: 0.5px;
+    margin-left: 12px;
+    padding: 0 10px;
+    &.router-link-exact-active:after {
+      width: 100%;
+    }
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    background-color: $text-bg-light;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  a:hover {
+    color: $text-bg-light;
+  }
+  a:hover:after {
+    width: 100%;
+  }
+  .aDark {
+    color: $text-bg-dark !important;
+  }
+  .aDark::after {
+    content: "";
+    position: absolute;
+    background-color: $text-bg-dark;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
 }
 
 @media (min-width: 367px) and (max-width: 767px) {
   * {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .content {

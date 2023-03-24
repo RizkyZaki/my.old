@@ -16,15 +16,29 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/"
+            <router-link
+              class="nav-link"
+              :class="{ aDark: isDark }"
+              aria-current="page"
+              to="/"
               >Me</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/project">Project</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ aDark: isDark }"
+              to="/project"
+              >Project</router-link
+            >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact</router-link>
+            <router-link
+              class="nav-link"
+              :class="{ aDark: isDark }"
+              to="/contact"
+              >Contact</router-link
+            >
           </li>
         </ul>
         <div class="nav-item">
@@ -46,6 +60,7 @@ export default {
   data() {
     return {
       theme: "",
+      isDark: "",
     };
   },
   methods: {
@@ -53,18 +68,15 @@ export default {
       document.body.classList.toggle("dark-theme");
       if (document.body.classList.contains("dark-theme")) {
         this.theme = "dark";
+        this.isDark = true;
       } else {
         this.theme = "light";
+        this.isDark = false;
       }
     },
   },
 };
 </script>
 
-<style lang="scss" scoped>
-nav {
-  li {
-    padding-right: 30px;
-  }
-}
+<style lang="scss">
 </style>
