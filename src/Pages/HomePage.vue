@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h2 class="text-center fw-bolder mb-5">Holaaa, Zach Here!</h2>
+    <h2 class="text-center fw-bolder mb-5">Holaaa, Zach Here! 🙌🏻</h2>
     <div class="desc-myself">
       <p class="mb-3">I am Rizky Zaki, a Bachelor of System Information.</p>
       <p class="mb-3">

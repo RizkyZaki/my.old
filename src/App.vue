@@ -122,14 +122,25 @@ nav {
     transition: 0.3s;
   }
 }
+.btn-send {
+  font-size: 15px;
+  background-color: $dark-bg;
+  color: $text-bg-dark;
+}
 
-@media (min-width: 367px) and (max-width: 767px) {
+.btnDark {
+  font-size: 15px;
+  background-color: $light-bg !important;
+  color: $text-bg-light !important;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
   * {
     font-size: 0.9rem;
   }
 
   .content {
-    margin: 35px 1.5rem;
+    margin: 35px 1rem;
   }
 }
 
