@@ -128,7 +128,7 @@ nav {
   color: $text-bg-dark;
 }
 
-.btnDark {
+body.dark-theme .btn-send {
   font-size: 15px;
   background-color: $light-bg !important;
   color: $text-bg-light !important;

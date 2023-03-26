@@ -52,7 +52,7 @@
         rows="3"
       ></textarea>
     </div>
-    <button class="btn btn-send mt-3" :class="{ btnDark: bDark }">
+    <button class="btn btn-send mt-3">
       Send <i class="fa-solid fa-paper-plane"></i>
     </button>
   </div>
