@@ -4,19 +4,17 @@
     <div class="desc-myself">
       <p class="mb-3">I am Rizky Zaki, a Bachelor of System Information.</p>
       <p class="mb-3">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-        aperiam maiores mollitia ut, quos veritatis sint obcaecati ab impedit,
-        fugit repudiandae veniam qui adipisci corporis ex earum architecto neque
-        hic.
+        I’m a Web developer with experience in building websites for small and
+        medium sized businesses. Besides that I can also communicate well, and
+        able to work quickly and efficiently I’m experienced in HTML and CSS 3,
+        JS, PHP, and the framework Like Laravel, vue Js, Bootstrap, Tailwind, I
+        can Also make Rest API For website or mobile app I’ll fully project
+        manage your brief from start to finish
       </p>
       <p class="mb-3">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos omnis
-        porro iure eligendi minima facere deserunt sed commodi officiis earum
-        hic ad quod, repellat, veniam nulla aspernatur culpa nihil labore
-        quisquam harum blanditiis explicabo magni vitae sunt! Totam possimus ex
-        laboriosam iusto id excepturi eaque, minima, expedita aperiam blanditiis
-        rerum unde praesentium fugit autem doloribus deleniti qui velit,
-        delectus modi quis quam ullam vero! Velit, repellendus corrupti!
+        I Passionate in UI Web Development, Website Landing page, REST API, and
+        also Web application. I have experience handle from small, to big
+        projects.
       </p>
       <p>
         If you are interested in my project, consider sponsoring me on
