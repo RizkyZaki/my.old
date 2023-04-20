@@ -11,9 +11,7 @@
         </div>
         <div class="mb-2">
           <i class="fa-brands fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/rizky-zaki-19461824a/"
-            >Rizky Zaki</a
-          >
+          <a href="https://www.linkedin.com/in/rizky-zaki-19461824a/">Rizky Zaki</a>
         </div>
         <div class="mb-2">
           <i class="fa-solid fa-envelope"></i>
@@ -31,26 +29,16 @@
       discussing.
     </p>
     <div class="">
-      <label for="exampleFormControlInput1" class="form-label fw-bold"
-        >Your Name</label
-      >
+      <label for="exampleFormControlInput1" class="form-label fw-bold">Your Name</label>
       <input type="text" class="form-control" id="exampleFormControlInput1" />
     </div>
     <div class="">
-      <label for="exampleFormControlInput1" class="form-label fw-bold"
-        >Your Email</label
-      >
+      <label for="exampleFormControlInput1" class="form-label fw-bold">Your Email</label>
       <input type="text" class="form-control" id="exampleFormControlInput1" />
     </div>
     <div class="">
-      <label for="exampleFormControlTextarea1" class="form-label fw-bold"
-        >Your Message</label
-      >
-      <textarea
-        class="form-control"
-        id="exampleFormControlTextarea1"
-        rows="3"
-      ></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label fw-bold">Your Message</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <button class="btn btn-send mt-3">
       Send <i class="fa-solid fa-paper-plane"></i>
@@ -62,6 +50,7 @@
 .container {
   font-size: 18px;
 }
+
 .contact {
   i {
     padding-right: 12px;
@@ -74,9 +63,11 @@
   .fa-linkedin {
     color: #0a66c2;
   }
+
   .fa-envelope {
     color: #ea4335;
   }
+
   .fa-github {
     color: #181717;
   }
