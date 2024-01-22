@@ -9,18 +9,18 @@ function Footer() {
     forks: null,
   });
 
-  useEffect(() => {
-    fetch("https://api.github.com/repos/koolkishan/chat-app-react-nodejs")
-      .then((response) => response.json())
-      .then((json) => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch((e) => console.error(e));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://api.github.com/repos/koolkishan/chat-app-react-nodejs")
+  //     .then((response) => response.json())
+  //     .then((json) => {
+  //       const { stargazers_count, forks_count } = json;
+  //       setGitHubInfo({
+  //         stars: stargazers_count,
+  //         forks: forks_count,
+  //       });
+  //     })
+  //     .catch((e) => console.error(e));
+  // }, []);
 
   return (
     <footer>
@@ -30,7 +30,7 @@ function Footer() {
         className="footer-link"
       >
         <span className="footer-info">Designed and Built by Zach.</span>
-        {githubInfo && (
+        {/* {githubInfo && (
           <div className="footer-git">
             <div className="footer-git-item">
               <FaRegStar className="footer-git-item-icon" />
@@ -41,7 +41,7 @@ function Footer() {
               <span className="footer-git-item-text">{githubInfo.forks}</span>
             </div>
           </div>
-        )}
+        )} */}
       </Link>
     </footer>
   );
