@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Zach.
+        Rizky Zaki.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"

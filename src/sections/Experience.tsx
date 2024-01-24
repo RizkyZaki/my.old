@@ -42,6 +42,16 @@ function Experience() {
         "Delivers high-quality products adhering to industry standards.",
       ],
     },
+    {
+      name: "Achievement",
+      role: "1st Place LKS SMK ",
+      url: "https://www.zach.my.id",
+      start: "Jun 2022",
+      end: "Jun 2022",
+      shortDescription: [
+        "1st place in the district level Web Technologies Competition held by the West Java Province Region IV Education Office Branch on June 14 - June 16 2022.",
+      ],
+    },
   ];
   return (
     <motion.div

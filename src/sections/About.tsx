@@ -51,7 +51,7 @@ function About() {
 
           <p className="about-grid-info-text">
             Im currently pursuing a bachelors degree in Information Systems at
-            one of the top private universities in Indonesia
+            one of the top universities in Indonesia
           </p>
           <p className="about-grid-info-text">
             The campus is called&nbsp;

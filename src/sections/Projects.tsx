@@ -11,7 +11,7 @@ function Projects() {
       projectName: "Website DPMPTSP",
       projectLink: "https://dpmptsp.pratama.tech",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "This is the information system website of a regional agency in my area called dpmptsp.",
       projectTech: ["Laravel", "Bootstrap CSS", "MySQL"],
       projectExternalLinks: {
         github: "",
@@ -23,7 +23,7 @@ function Projects() {
       projectName: "Templatenesia",
       projectLink: "https://templatenesia.com",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "This is Website Templates, Plugins, and Graphics Digital Marketplace Best place to buy and sell digital products. created with Laravel and already uses the Ipaymu payment gateway which can make it easier for users to make transactions.",
       projectTech: [
         "Laravel",
         "Payment Gateaway",
@@ -41,7 +41,7 @@ function Projects() {
       projectName: "Book Ecommerce",
       projectLink: "",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "This is an e-book e-commerce website that provides various kinds of ebooks. This website was created with NextJS technology and also uses a payment gateway, namely MidTrans.",
       projectTech: ["Next", "Tailwind", "MySQL", "Payment Gateway"],
       projectExternalLinks: {
         github: "",
@@ -53,7 +53,7 @@ function Projects() {
       projectName: "Search  Github Person",
       projectLink: "find-person.vercel.app",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "this is a small project that aims to consume api from github and on this website users can search for github users and can see their details, this website was created with next js and public github api I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
       projectTech: ["Next", "Tailwind", "API"],
       projectExternalLinks: {
         github: "",
@@ -106,7 +106,7 @@ function Projects() {
                   </div>
                 </div>
                 <div className="project-info">
-                  <p className="project-info-overline">Featured Project</p>
+                  <p className="project-info-overline">Project</p>
                   <h3 className="project-info-title">{projectName}</h3>
                   <div className="project-info-description">
                     <p>{projectDescription}</p>
@@ -119,14 +119,14 @@ function Projects() {
                     ))}
                   </ul>
                   <ul className="project-info-links">
-                    <li className="project-info-links-item">
+                    {/* <li className="project-info-links-item">
                       <Link
                         href={projectExternalLinks.github}
                         className="project-info-links-item-link"
                       >
                         <FiGithub />
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="project-info-links-item">
                       <Link
                         href={projectExternalLinks.externalLink}

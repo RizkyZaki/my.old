@@ -5,7 +5,7 @@ import {
   FiInstagram,
   FiYoutube,
   FiLinkedin,
-  FiTwitter,
+  FiFacebook,
 } from "react-icons/fi";
 import { motion } from "framer-motion";
 
@@ -15,22 +15,22 @@ function SocialIcons() {
     {
       name: "Youtube",
       icon: <FiYoutube />,
-      link: "https://www.youtube.com/KishanSheth21/",
+      link: "https://www.youtube.com/@kruvuk6947",
     },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/koolkishan/",
+      link: "https://www.linkedin.com/in/rizkyzaki/",
     },
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "https://instagram.com/koolkishansheth",
+      link: "https://www.instagram.com/zach__2.0/",
     },
     {
-      name: "Twitter",
-      icon: <FiTwitter />,
-      link: "https://twitter.com/koolkishansheth",
+      name: "Facebook",
+      icon: <FiFacebook />,
+      link: "https://facebook.com/",
     },
   ];
   return (
