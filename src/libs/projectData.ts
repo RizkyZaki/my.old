@@ -226,7 +226,7 @@ const otherProjectsData: ProjectData[] = [
     },
   },
   {
-    image: "/img/sinakes.png",
+    image: "/img/sinakes.jpg",
     projectName: "Sinakes Komit",
     projectLink: "https://sinakeskomit.dinkes.purwakartakab.go.id",
     projectDescription:
