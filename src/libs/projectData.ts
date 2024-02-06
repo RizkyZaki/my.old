@@ -225,6 +225,18 @@ const otherProjectsData: ProjectData[] = [
         "https://play.google.com/store/apps/details?id=id.co.pratamatechsolution.kejari&hl=id&gl=US",
     },
   },
+  {
+    image: "/img/sinakes.png",
+    projectName: "Sinakes Komit",
+    projectLink: "https://sinakeskomit.dinkes.purwakartakab.go.id",
+    projectDescription:
+      "Sinakes Komit is an automatic information system for the appointment or promotion of health workers",
+    projectTech: ["Laravel", "MySQL", "Javascript"],
+    projectExternalLinks: {
+      github: "",
+      externalLink: "https://sinakeskomit.dinkes.purwakartakab.go.id",
+    },
+  },
 ];
 
 export default otherProjectsData;
