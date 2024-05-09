@@ -169,7 +169,7 @@ const otherProjectsData: ProjectData[] = [
     projectLink: "https://disdik.pratama.tech/",
     projectDescription:
       "Disdik is the Purwakarta education department. This website is a company profile and there is a complaint service and so on",
-    projectTech: ["Laravel", "MySQL", "Javascript"],
+    projectTech: ["Laravel", "MySQL", "Javascript", "Minio"],
     projectExternalLinks: {
       github: "",
       externalLink: "https://disdik.pratama.tech/",
@@ -235,6 +235,31 @@ const otherProjectsData: ProjectData[] = [
     projectExternalLinks: {
       github: "",
       externalLink: "https://sinakeskomit.dinkes.purwakartakab.go.id",
+    },
+  },
+  {
+    image: "/img/aling.png",
+    projectName: "Aling Globe",
+    projectLink: "https://alingglobe.com",
+    projectDescription:
+      "alingglobe is a language course website that has a learning management system feature for course students such as attendance, assignments, exams, certificates and others.",
+    projectTech: ["Laravel", "MySQL", "Alpine", "Livewire"],
+    projectExternalLinks: {
+      github: "",
+      externalLink: "https://alingglobe.com",
+    },
+  },
+  {
+    image: "/img/rental.png",
+    projectName: "RentalPedia",
+    projectLink: "https://rentalmobil.marspedia.id",
+    projectDescription:
+      "rentalpedia is a website that provides car rental services and provides complete car brands",
+    projectTech: ["Laravel", "MySQL", "Javascript"],
+
+    projectExternalLinks: {
+      github: "",
+      externalLink: "https://rentalmobil.marspedia.id",
     },
   },
 ];
