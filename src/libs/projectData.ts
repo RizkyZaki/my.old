@@ -238,7 +238,7 @@ const otherProjectsData: ProjectData[] = [
     },
   },
   {
-    image: "/img/aling.png",
+    image: "/img/aling.PNG",
     projectName: "Aling Globe",
     projectLink: "https://alingglobe.com",
     projectDescription:
@@ -250,7 +250,19 @@ const otherProjectsData: ProjectData[] = [
     },
   },
   {
-    image: "/img/rental.png",
+    image: "/img/singkat.PNG",
+    projectName: "Singkat.in",
+    projectLink: "https://singkat.in",
+    projectDescription:
+      "Singkat.in is a practical solution to quickly and easily convert long URLs into short ones. With our service, you can generate shorter and more memorable links, ideal for shortening long and complex links.",
+    projectTech: ["NextJS", "MySQL", "Prisma", "Node"],
+    projectExternalLinks: {
+      github: "",
+      externalLink: "https://singkat.in",
+    },
+  },
+  {
+    image: "/img/rental.PNG",
     projectName: "RentalPedia",
     projectLink: "https://rentalmobil.marspedia.id",
     projectDescription:
