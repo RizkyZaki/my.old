@@ -7,33 +7,29 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/img/dpmptsp.jpg",
-      projectName: "Website DPMPTSP",
-      projectLink: "https://dpmptsp.pratama.tech",
+      image: "/img/belli.png",
+      projectName: "Website Belli",
+      projectLink: "https://belli.ai",
       projectDescription:
-        "This is the information system website of a regional agency in my area called dpmptsp.",
-      projectTech: ["Laravel", "Bootstrap CSS", "MySQL"],
+        "making what was previously a figma into a clickable prototype, and other logic",
+      projectTech: ["Nextjs", "Figma", "RadixUI", "ShadCN"],
       projectExternalLinks: {
         github: "",
-        externalLink: "https://dpmptsp.pratama.tech",
+        externalLink: "https://belli.ai",
       },
     },
     {
-      image: "/img/temp.jpg",
-      projectName: "Templatenesia",
-      projectLink: "https://templatenesia.com",
+      image: "/img/android-kejari.png",
+      projectName: "Android Kejari Purwakarta",
+      projectLink:
+        "https://play.google.com/store/apps/details?id=id.co.pratamatechsolution.kejari&hl=id&gl=US",
       projectDescription:
-        "This is Website Templates, Plugins, and Graphics Digital Marketplace Best place to buy and sell digital products. created with Laravel and already uses the Ipaymu payment gateway which can make it easier for users to make transactions.",
-      projectTech: [
-        "Laravel",
-        "Payment Gateaway",
-        "Livewire",
-        "Tailwind",
-        "MySQL",
-      ],
+        "Kejari Android is the mobile version of the Purwakarta State Prosecutor's Office website which contains a lot of information and services",
+      projectTech: ["Flutter", "Dart", "RestAPI"],
       projectExternalLinks: {
         github: "",
-        externalLink: "https://templatenesia.com",
+        externalLink:
+          "https://play.google.com/store/apps/details?id=id.co.pratamatechsolution.kejari&hl=id&gl=US",
       },
     },
     {
