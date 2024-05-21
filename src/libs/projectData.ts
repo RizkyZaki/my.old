@@ -12,6 +12,18 @@ export interface ProjectData {
 
 const otherProjectsData: ProjectData[] = [
   {
+    image: "/img/belli.png",
+    projectName: "Website Belli",
+    projectLink: "https://belli.ai",
+    projectDescription:
+      "making what was previously a figma into a clickable prototype, and other logic",
+    projectTech: ["Nextjs", "Figma", "RadixUI", "ShadCN"],
+    projectExternalLinks: {
+      github: "",
+      externalLink: "https://belli.ai",
+    },
+  },
+  {
     image: "/img/dpmptsp.jpg",
     projectName: "Website DPMPTSP",
     projectLink: "https://dpmptsp.pratama.tech",
